@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariem Roulette</title>
+
+    <link rel="stylesheet" href="style.css.css">
+</head>
+
+<body>
+
+<canvas id="confetti"></canvas>
+
+<div class="controls">
+    <button class="icon-btn" id="muteButton" title="Son">🔊</button>
+    <button class="icon-btn" id="resetButton" title="Reset les stats">↺</button>
+</div>
+
+<div class="container">
+
+    <div class="title">
+        <h1>Mariem njoum</h1>
+        <p>Dawer l3ajla w chouf Mariem lyom 😂</p>
+    </div>
+
+    <div class="stats-bar">
+        <div class="stat-chip">🎯 Spins: <span id="spinCount">0</span></div>
+        <div class="stat-chip">👑 Top: <span id="topResult">—</span></div>
+    </div>
+
+    <div class="game">
+
+        <div class="wheel-area">
+
+            <div class="wheel-container">
+
+                <div class="pointer" id="pointer"></div>
+
+                <canvas id="wheel" width="500" height="500"></canvas>
+
+                <div class="wheel-center">
+                    M
+                </div>
+
+            </div>
+
+            <button class="spin-button" id="spinButton">
+                🎡 Dawer l3ajla dawer lgarou!
+            </button>
+
+            <div class="result" id="result">
+
+                <small>Résultat</small>
+
+                <h2 id="resultName">Mariem</h2>
+
+                <p id="resultText">
+                    ...
+                </p>
+
+            </div>
+
+            <div class="history">
+                <h3>Derniers spins</h3>
+                <div class="history-list" id="historyList">
+                    <span class="history-empty">Ama7ad dar spin bara9a 👀</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="characters" id="characters">
+
+            <h2>Les Mariem 😂</h2>
+
+            <div class="character-grid">
+
+                <div class="character" data-name="Mariem Njoum">
+                    Mariem Njoum
+                    <span class="meme">⭐</span>
+                </div>
+
+                <div class="character" data-name="Mariem Chams">
+                    Mariem Chams
+                    <span class="meme">☀️</span>
+                </div>
+
+                <div class="character" data-name="Mariem Ta3mel Fel 7es">
+                    Mariem Ta3mel Fel 7es
+                    <span class="meme">🤦</span>
+                </div>
+
+                <div class="character" data-name="Mariem 3asir">
+                    Mariem 3asir
+                    <span class="meme">🧃</span>
+                </div>
+
+                <div class="character" data-name="Mariem T7eb L7out"> 
+                    Mariem Takrah L7out
+                    <span class="meme">🐟</span>
+                </div>
+
+                <div class="character" data-name="Mariem Bent Imen">
+                    Mariem Bent Imen
+                    <span class="meme">😂</span>
+                </div>
+
+                <div class="character" data-name="Mariem Idha Sghayra">
+                    Mariem Idha Sghayra
+                    <span class="meme">👶</span>
+                </div>
+
+                <div class="character" data-name="Mariem Bhima">
+                    Mariem Bhima
+                    <span class="meme">🤪</span>
+                </div>
+
+                <div class="character" data-name="Mariem Bisa">
+                    Mariem Bisa
+                    <span class="meme">🐱</span>
+                </div>
+
+                <div class="character" data-name="Mariem Basbousa">
+                    Mariem Basbousa
+                    <span class="meme">🍰</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        Mariem Roulette © 2026 — appuie sur espace pour dawer 🎡
+    </footer>
+
+</div>
+
+<script src="script.js.js"></script>
+
+</body>
+</html>
